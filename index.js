@@ -57,5 +57,5 @@ io.on('connection', (socket) => {
 
 const port = 3001
 server.listen(port, () => {
-    console.log(`Example app listening on http://localhost:${port}/ `)
+    console.log(`Example app listening on http://localhost:${port}/`)
 })
